@@ -63,7 +63,6 @@ function Main({ navigation }) {
         techs: techs
       }
     });
-    console.log(res.data.devs);
     setDevs(res.data.devs);
     setupWebsocket();
   }
